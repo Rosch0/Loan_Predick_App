@@ -5,22 +5,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 
-# CSS
-st.markdown(
-    """
-    <style>
-    .centered-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-st.markdown('<div class="centered-container">', unsafe_allow_html=True)
 
 # App title
 st.title("Creditworthiness Prediction")
